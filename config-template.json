@@ -1,0 +1,18 @@
+{
+  "development" : {
+    "DB_URI" : "mongodb://localhost/test",
+    "DB_OPTIONS" : {
+      "user" : "username",
+      "pass" : "password"
+    },
+    "SERVER_PORT" : 3000
+  },
+  "production" : {
+    "DB_URI" : "mongodb://localhost/test",
+    "DB_OPTIONS" : {
+      "user" : "username",
+      "pass" : "password"
+    },
+    "SERVER_PORT" : 3000
+  }
+}
